@@ -17,5 +17,46 @@
 }
 
 body{
-  /*background-color:#e5ffff;*/
+}
+
+#con-wrap{
+ width:75%;
+  background-color:#00D2DC;
+ border-radius:5px;
+ margin-top:5%;
+  box-shadow:0px 0px 20px 20px #A1FFFF;
+  color:white;
+  padding:2px;
+}
+
+.content{
+  background-color:white;
+  margin:2%;
+  border-radius:5px;
+  height:100%;
+}
+
+.item{
+  padding:5px;
+}
+
+img{
+  width:100%;
+}
+
+.img{
+  border-radius:5px;
+  width:100%;
+    background-color:#A1FFFF;
+}
+
+.row{
+  margin:0px;
+}
+
+.notes{
+  width:100%;
+  padding:1px;
+  border-radius:5px;
+  color:black;
 }
