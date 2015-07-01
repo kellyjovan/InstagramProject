@@ -45,5 +45,15 @@ $(document).ready(function(){
 
     $('.content').append(imgBox);
   }
+
+  $(document).keypress(function(evt){
+    if(evt.which == 13){
+      $('#searchBtn').trigger('click');
+    }
+  })
+
   $(".fancybox").fancybox();
 });
+
+var videos = ['ijOoE9zH9W4', ''];
+
